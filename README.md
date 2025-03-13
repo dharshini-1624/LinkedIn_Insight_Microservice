@@ -10,7 +10,6 @@ The LinkedIn Insights Microservice is built to extract valuable insights from Li
 - **Extract essential information** like company profiles, posts, and engagement data
 - **MongoDB storage** for persistent data management
 - **FastAPI-powered RESTful API** with pagination and filtering
-- **Optional Redis integration** for improved performance through caching
 - **Environment variables support** via `.env` configuration
 
 ---

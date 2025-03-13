@@ -80,11 +80,11 @@ Access the API at: http://localhost:8000
 ## 📡 API Endpoints
 
 ### **1️⃣ Scrape LinkedIn Company Page**
-POST /api/scrape
+POST /api/scraper/scrape
 
 **Request Body:**
 {
-  "url": "https://www.linkedin.com/company/microsoft",
+  "url": "https://www.linkedin.com/company/hp",
   "type": "company"
 }
 
@@ -92,7 +92,7 @@ POST /api/scrape
 {
   "status": "success",
   "message": "Successfully scraped company page",
-  "data": { ... }
+  "data": { Data_Context }
 }
 
 ### **2️⃣ Retrieve All Scraped Pages**

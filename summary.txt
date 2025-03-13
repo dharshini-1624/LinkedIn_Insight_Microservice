@@ -1,0 +1,5 @@
+This project is powered by FastAPI and begins execution from the main.py file. The core functionality includes a web scraper service that collects data from LinkedIn company pages.
+
+Once the server is running, you can access the API documentation via Swagger UI at http://127.0.0.1:8000/docs#/, which will provide you with a comprehensive guide on how to interact with the service.
+
+The data scraped from LinkedIn is organized into a specific structure, as serialization with Pydantic and MongoDB didn't fully meet the requirements for proper data formatting. After scraping, the collected information is saved in MongoDB. The endpoints are designed to retrieve and interact with this stored data, ensuring efficient consumption by other services or processes within the application.

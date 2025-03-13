@@ -3,7 +3,7 @@ version: "3.8"
 services:
   app:
     build: .
-    container_name: linkedin_insights_service
+    container_name: linkedin_insight_service
     ports:
       - "8000:8000"
     depends_on:
@@ -15,7 +15,7 @@ services:
 
   mongodb:
     image: mongo:latest
-    container_name: linkedin_insights_mongo
+    container_name: linkedin_insight_mongo
     ports:
       - "27017:27017"
     volumes:
